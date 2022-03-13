@@ -13,18 +13,31 @@
     <!-- Navbar Search-->
     <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
     </form>
-@*    @{ var userInfomatiom = (QuanLyChamCong.Models.User)Session["USER"]; }*@
+    @{ var cvht = (QuanLyRenLuyen.Models.CoVanHocTap)Session["CVHT"];
+        var sv = (QuanLyRenLuyen.Models.SinhVien)Session["SV"];}
     <!-- Navbar-->
     <ul style="color:white" class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
 
         <li class="nav-item dropdown">
+            @if (cvht != null)
+            {
+                <a style="color:white" class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false"><i class="fas fa-user fa-fw"></i>@cvht.HoTen</a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
 
-            <a style="color:white" class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown"
-               aria-expanded="false"><i class="fas fa-user fa-fw"></i>admin</a>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="/Authentication/Logout">Đăng xuất</a></li>
+                </ul>
+            }
+            else
+            {
+                <a style="color:white" class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown"
+                   aria-expanded="false"><i class="fas fa-user fa-fw"></i>@sv.HoTen</a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
 
-                <li><a class="dropdown-item" href="/Authentication/Logout">Logout</a></li>
-            </ul>
+                    <li><a class="dropdown-item" href="/Authentication/SVLogout">Đăng xuất</a></li>
+                </ul>
+            }
+
         </li>
     </ul>
 </nav>

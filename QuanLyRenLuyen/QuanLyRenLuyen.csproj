@@ -128,8 +128,13 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AuthenticationController.cs" />
+    <Compile Include="Controllers\DiemRenLuyenController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ModulesController.cs" />
+    <Compile Include="Controllers\SinhVienController.cs" />
+    <Compile Include="Daos\CoVanDao.cs" />
+    <Compile Include="Daos\DiemRenLuyenDao.cs" />
+    <Compile Include="Daos\SinhVienDao.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -205,6 +210,10 @@
     <Content Include="Views\Modules\Footer.cshtml" />
     <Content Include="Views\Modules\Menu.cshtml" />
     <Content Include="Views\Authentication\Login.cshtml" />
+    <Content Include="Views\SinhVien\ChamDiem.cshtml" />
+    <Content Include="Views\SinhVien\Index.cshtml" />
+    <Content Include="Views\DiemRenLuyen\Index.cshtml" />
+    <Content Include="Views\DiemRenLuyen\XepLoai.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

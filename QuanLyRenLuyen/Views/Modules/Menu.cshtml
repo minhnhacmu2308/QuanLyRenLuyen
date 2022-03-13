@@ -1,16 +1,36 @@
 ﻿
 
 <div id="layoutSidenav_nav">
-@*    @{ var userInfomatiom = (QuanLyChamCong.Models.User)Session["USER"]; }*@
+    @{ var cvht = (QuanLyRenLuyen.Models.CoVanHocTap)Session["CVHT"];
+        var sv = (QuanLyRenLuyen.Models.SinhVien)Session["SV"];}
     <nav style="background-color: #F1F1F1 !important" class="sb-sidenav accordion " id="sidenavAccordion">
         <div class="sb-sidenav-menu">
             <div class="nav">
+                @if (sv != null)
+                {
                     <a class="nav-link " href="/User/Index">
                         <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                         Quản lý điểm rèn luyện
 
                     </a>
-                
+                }
+                else
+                {
+                    <a class="nav-link " href="/SinhVien/Index">
+                        <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                        Quản lý sinh viên
+                    </a>
+                    <a class="nav-link " href="/DiemRenLuyen/Index">
+                        <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                        Quản lý điểm rèn luyện
+                    </a>
+                    <a class="nav-link " href="/DiemRenLuyen/XepLoai">
+                        <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                        Xếp loại
+                    </a>
+                }
+
+
             </div>
             @*  <div class="nav">
 
