@@ -13,7 +13,7 @@ namespace QuanLyRenLuyen.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IdChamDiemRenLuyen{ get; set; }
 
-        public int HocKy { get; set; }
+        public int IdHocKy { get; set; }
 
         public int Diem { get; set; }
 
@@ -25,5 +25,19 @@ namespace QuanLyRenLuyen.Models
         public int TrangThai { get; set; }
 
         public virtual SinhVien SinhVien { get; set; }
+        public virtual HocKy HocKy { get; set; }
+
+        public ChamDiemRenLuyen(int hocky, int diem,string tieuchi,int idSinhVien,int trangThai)
+        {
+            IdHocKy = hocky;
+            Diem = diem;
+            TieuChi = tieuchi;
+            IdSinhVien = idSinhVien;
+            TrangThai = trangThai;
+        }
+        public ChamDiemRenLuyen()
+        {
+
+        }
     }
 }

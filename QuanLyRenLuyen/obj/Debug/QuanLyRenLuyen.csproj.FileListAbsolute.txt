@@ -170,3 +170,6 @@ D:\.NET MVC\QuanLyRenLuyen\QuanLyRenLuyen\obj\Debug\QuanLyRenLuyen.csproj.CoreCo
 D:\.NET MVC\QuanLyRenLuyen\QuanLyRenLuyen\obj\Debug\QuanLyRenLuyen.csproj.CopyComplete
 D:\.NET MVC\QuanLyRenLuyen\QuanLyRenLuyen\obj\Debug\QuanLyRenLuyen.dll
 D:\.NET MVC\QuanLyRenLuyen\QuanLyRenLuyen\obj\Debug\QuanLyRenLuyen.pdb
+C:\Users\thanh\source\repos\QuanLyRenLuyen\QuanLyRenLuyen\obj\Debug\QuanLyRenLuyen.Migrations.updatea.resources
+C:\Users\thanh\source\repos\QuanLyRenLuyen\QuanLyRenLuyen\obj\Debug\QuanLyRenLuyen.Migrations.updateaa.resources
+C:\Users\thanh\source\repos\QuanLyRenLuyen\QuanLyRenLuyen\obj\Debug\QuanLyRenLuyen.Migrations.a.resources

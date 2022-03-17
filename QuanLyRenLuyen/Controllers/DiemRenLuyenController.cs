@@ -45,5 +45,7 @@ namespace QuanLyRenLuyen.Controllers
             }
             return View();
         }
+
+      
     }
 }

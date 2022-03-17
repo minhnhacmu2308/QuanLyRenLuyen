@@ -20,6 +20,7 @@ namespace QuanLyRenLuyen.Models
         public DbSet<ChamDiemRenLuyen> ChamDiemRenLuyens { get; set; }
         public DbSet<LopTaiChinh> LopTaiChinhs { get; set; }
         public DbSet<SinhVien> SinhViens { get; set; }
+        public DbSet<HocKy> HocKies { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
