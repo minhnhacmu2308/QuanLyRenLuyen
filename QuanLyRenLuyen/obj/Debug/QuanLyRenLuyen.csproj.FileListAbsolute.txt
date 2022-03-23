@@ -173,3 +173,6 @@ D:\.NET MVC\QuanLyRenLuyen\QuanLyRenLuyen\obj\Debug\QuanLyRenLuyen.pdb
 C:\Users\thanh\source\repos\QuanLyRenLuyen\QuanLyRenLuyen\obj\Debug\QuanLyRenLuyen.Migrations.updatea.resources
 C:\Users\thanh\source\repos\QuanLyRenLuyen\QuanLyRenLuyen\obj\Debug\QuanLyRenLuyen.Migrations.updateaa.resources
 C:\Users\thanh\source\repos\QuanLyRenLuyen\QuanLyRenLuyen\obj\Debug\QuanLyRenLuyen.Migrations.a.resources
+D:\.NET MVC\QuanLyRenLuyen\QuanLyRenLuyen\obj\Debug\QuanLyRenLuyen.Migrations.updatea.resources
+D:\.NET MVC\QuanLyRenLuyen\QuanLyRenLuyen\obj\Debug\QuanLyRenLuyen.Migrations.updateaa.resources
+D:\.NET MVC\QuanLyRenLuyen\QuanLyRenLuyen\obj\Debug\QuanLyRenLuyen.Migrations.a.resources

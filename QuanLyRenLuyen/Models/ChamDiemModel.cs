@@ -26,11 +26,7 @@ namespace QuanLyRenLuyen.Models
         public string three1 { get; set; }
         public string three2 { get; set; }
         public string four { get; set; }
-        public string five1 { get; set; }
-        public string five2 { get; set; }
-        public string five3 { get; set; }
-        public string five4 { get; set; }
-        public string five5 { get; set; }
+        public string five { get; set; }
         public string six { get; set; }
     }
 }

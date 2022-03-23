@@ -22,11 +22,7 @@ namespace QuanLyRenLuyen.Constants
         public static string THREE_ONE = "Tích cực tham gia các  hoạt động, cuộc thi tìm hiểu pháp luật, văn hóa, văn nghệ, TDTT do Khoa, Nhà trường tổ chức :  ";
         public static string THREE_TWO = "Tích cực tham gia các hoạt động tuyên truyền thực hiện các chủ trương, đường lối của Đảng, Nhà nước, địa phương, Nhà trường và phòng chống tệ nạn xã hội, đấu tranh phòng chống tội phạm";
         public static string FOUR = "Thực hiện tốt các quy định về phòng, chống dịch bệnh Covid-19 ";
-        public static string FIVE_ONE = "Tham gia đầy đủ các buổi họp và tập huấn trong học kỳ";
-        public static string FIVE_TWO = "Xây dựng và tổ chức các hoạt động, phong trào từ cấp lớp trở lên trong học kỳ";
-        public static string FIVE_THREE = "Là sinh viên tiêu biểu trong học tập và rèn luyện, được giới thiệu tham gia học Lớp nhận thức về Đảng Cộng sản Việt Nam";
-        public static string FIVE_FOUR = "Là sinh viên tiêu biểu trong học tập và rèn luyện, được giới thiệu xét kết nạp vào Đảng Cộng sản Việt Nam";
-        public static string FIVE_FIVE= "Được nhận Bằng khen từ cấp thành phố và tương đương trở lên vì có thành tích trong công tác Đoàn và phong trào SV trong học kỳ";
+        public static string FIVE = "Đánh giá về ý thức và kết quả tham gia phụ trách lớp học sinh viên, các đoàn thể, tổ chức trong Nhà trường";
         public static string SIX = "Sinh viên có thành tích đặc biệt trong học tập, rèn luyện, nghiên cứu khoa học, văn nghệ, thể thao, cứu giúp người bị nạn: Cộng 10 điểm";
     }
 }

@@ -13,14 +13,27 @@
     }
     else
     {
-        <div class="container-fluid px-4">
-            <h2 class="mt-4">Chi tiết đánh giá rèn luyện của sinh viên @ViewBag.Diem.SinhVien.HoTen học kỳ @ViewBag.Diem.IdHocKy</h2>
-            @foreach(var item in Model)
+<div class="container-fluid px-4">
+    <h2 class="mt-4">Chi tiết đánh giá rèn luyện của sinh viên @ViewBag.Diem.SinhVien.HoTen học kỳ @ViewBag.Diem.IdHocKy</h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Tiêu chí</th>
+                <th>Số điểm</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
             {
-                <span>- @item.TieuChi :</span><span style="font-weight:bold">@item.Diem</span><span> điểm</span><br />
+            <tr>
+                <td>@item.TieuChi</td>
+                <td>@item.Diem</td>
+            </tr>
             }
-            <span style="font-weight:bold;font-size:20px">Tổng điểm: </span> <span style="font-size: 20px">@ViewBag.Diem.TongDiem điểm</span>
-        </div>
+        </tbody>
+    </table>
+    <span style="font-weight:bold;font-size:20px">Tổng điểm: </span> <span style="font-size: 20px">@ViewBag.Diem.TongDiem điểm</span>
+</div>
     }
 
 </main>

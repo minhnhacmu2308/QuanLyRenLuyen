@@ -60,11 +60,7 @@ namespace QuanLyRenLuyen.Controllers
                 new ChamDiemRenLuyen(chamDiem.hocky, Int32.Parse(chamDiem.three1), Constants.Constants.THREE_ONE, chamDiem.IdSinhVien, 0),
                 new ChamDiemRenLuyen(chamDiem.hocky, Int32.Parse(chamDiem.three2), Constants.Constants.THREE_TWO, chamDiem.IdSinhVien, 0),
                 new ChamDiemRenLuyen(chamDiem.hocky, Int32.Parse(chamDiem.four), Constants.Constants.FOUR, chamDiem.IdSinhVien, 0),
-                new ChamDiemRenLuyen(chamDiem.hocky, Int32.Parse(chamDiem.five1), Constants.Constants.FIVE_ONE, chamDiem.IdSinhVien, 0),
-                new ChamDiemRenLuyen(chamDiem.hocky, Int32.Parse(chamDiem.five2), Constants.Constants.FIVE_TWO, chamDiem.IdSinhVien, 0),
-                new ChamDiemRenLuyen(chamDiem.hocky, Int32.Parse(chamDiem.five3), Constants.Constants.FIVE_THREE, chamDiem.IdSinhVien, 0),
-                new ChamDiemRenLuyen(chamDiem.hocky, Int32.Parse(chamDiem.five4), Constants.Constants.FIVE_FOUR, chamDiem.IdSinhVien, 0),
-                new ChamDiemRenLuyen(chamDiem.hocky, Int32.Parse(chamDiem.five5), Constants.Constants.FIVE_FIVE, chamDiem.IdSinhVien, 0),
+                new ChamDiemRenLuyen(chamDiem.hocky, Int32.Parse(chamDiem.five), Constants.Constants.FIVE, chamDiem.IdSinhVien, 0),
                 new ChamDiemRenLuyen(chamDiem.hocky, Int32.Parse(chamDiem.six), Constants.Constants.SIX, chamDiem.IdSinhVien, 0)
             };
             diemRenLuyenDao.Add(chamDiemRenLuyens);
